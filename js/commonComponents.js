@@ -1,0 +1,1 @@
+$(headerComponent).load('html/commonComponents/header.html')
