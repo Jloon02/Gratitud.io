@@ -2,3 +2,16 @@
     background-color: #9695D9;
     width: 100%; 
 }
+
+.nav-link {
+    color: white
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #6C6BC2
+}
+
+.nav-pills {
+    align-items: left;
+}
+

@@ -1,13 +1,17 @@
 <div>
     <link rel="stylesheet" href="../../css/styles.css">
     <div class="container" id=global-header>
-        <header class="d-flex justify-content-center py-3">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="/html/login.html" class="nav-link" id="home-button">Home</a></li>
-                <li class="nav-item"><a href="/html/card.html" class="nav-link" id="card-button">See Your Card</a></li>
-                <li class="nav-item"><a href="/html/messageBox.html" class="nav-link" id="message-box-button">Leave a Note</a></li>
-            </ul>
-            <div class="dropdown text-end">
+        <header class="d-flex py-3 justify-content-between">
+            <div id=navigation-buttons>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="/html/login.html" class="nav-link" id="home-button">Home</a></li>
+                    <li class="nav-item"><a href="/html/card.html" class="nav-link" id="card-button">See Your Card</a>
+                    </li>
+                    <li class="nav-item"><a href="/html/messageBox.html" class="nav-link" id="message-box-button">Leave
+                            a Note</a></li>
+                </ul>
+            </div>
+            <div class="dropdown text-end" id=profile-buttons>
                 <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     <img src="/images/ruffles.png" alt="user" width="32" height="32" class="rounded-circle">
