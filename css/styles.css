@@ -1,31 +1,31 @@
-.welcome_message{
+.welcome_message {
     font-size: 33px;
     font-family: 'Inter', sans-serif;
     text-align: center;
     line-height: 55px;
-    position:fixed;
+    position: fixed;
 }
 
-#welcome_container{
+#welcome_container {
     margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.firefly_container{
+.firefly_container {
     display: inline block;
     margin-left: 400px;
     position: fixed;
 }
 
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#login_container{
+#login_container {
     background-color: #DBDAED;
     display: flex;
     align-items: center;
@@ -37,7 +37,8 @@
     margin-bottom: 40px;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 80%;
     margin-left: 55px;
     margin-top: 15px;
@@ -45,35 +46,40 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     box-sizing: border-box;
-    border-radius:15px;
+    border-radius: 15px;
     font-family: 'Inter', sans-serif;
-  }
+}
 
-  .buttons{
+.buttons {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  #login{
+#login {
     background-color: #9695D9;
     border: none;
     border-radius: 20px;
     height: 40px;
     width: 150px;
     margin: 15px;
-  }
+}
 
-  #login:hover{
+#login:hover {
     background-color: #8886CB;
-  }
+}
 
-  #signup{
+#signup {
     background-color: #9695D9;
     border: none;
     border-radius: 20px;
     height: 40px;
     width: 150px;
     margin: 15px;
-  }
+}
+
+#header-component {
+    background-color: #9695D9;
+    width: 100%;
+}
