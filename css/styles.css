@@ -1,0 +1,75 @@
+.welcome_message{
+    font-size: 33px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    line-height: 55px;
+    position:fixed;
+}
+
+#welcome_container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firefly_container{
+    display: inline block;
+    margin-left: 400px;
+    position: fixed;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login_container{
+    background-color: #DBDAED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    border-radius: 40px;
+    width: 45vw;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    margin-left: 55px;
+    margin-top: 15px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    border-radius:15px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .buttons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login{
+    background-color: #9695D9;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin: 15px;
+  }
+
+  .signup{
+    background-color: #9695D9;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin: 15px;
+  }
