@@ -1,6 +1,7 @@
 $(function () {
-    $("#header-component").load("commonComponents/header.html")
-    updateNavigation()
+    $("#header-component").load("commonComponents/header.html", function() {
+        updateNavigation()
+    })
 })
 
 function updateNavigation() {
