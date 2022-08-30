@@ -57,6 +57,27 @@ input[type=password] {
     justify-content: center;
 }
 
+.button {
+    width: 170px;
+    border: none;
+    color: black;
+    background-color: #9695D9;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 8px 10px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: lightskyblue;
+}
+
 #login {
     background-color: #9695D9;
     border: none;
@@ -77,6 +98,14 @@ input[type=password] {
     height: 40px;
     width: 150px;
     margin: 15px;
+}
+
+#landscape img {
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
 }
 
 #header-component {
