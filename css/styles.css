@@ -34,6 +34,8 @@
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
+    position: fixed;
+    top:20vh;
 }
 
 input[type=text], input[type=password] {
@@ -80,5 +82,21 @@ input[type=text], input[type=password] {
 #header-component {
     background-color: #9695D9;
     width: 100%; 
+}
+
+.grass{
+    width:100vw;
+    position: fixed;
+    top: 75vh;
+}
+
+#incorrect_credentials{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    display: none;
 }
 
