@@ -1,3 +1,4 @@
+
 .welcome_message{
     font-size: 33px;
     font-family: 'Inter', sans-serif;
@@ -77,3 +78,9 @@ input[type=text], input[type=password] {
     width: 150px;
     margin: 15px;
   }
+
+#header-component {
+    background-color: #9695D9;
+    width: 100%; 
+}
+
