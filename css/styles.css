@@ -8,7 +8,7 @@
 }
 
 #welcome_container{
-    margin-top: 100px;
+    margin-top: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,21 +28,19 @@
 
 #login_container{
     background-color: #DBDAED;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 15vh;
     border-radius: 40px;
     width: 45vw;
     padding: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    display: flex;
 }
 
 input[type=text], input[type=password] {
     width: 80%;
     margin-left: 55px;
     margin-top: 15px;
-    padding: 12px 20px;
+    padding: 8px 16px;
     display: inline-block;
     border: none;
     box-sizing: border-box;
@@ -78,7 +76,7 @@ input[type=text], input[type=password] {
     width: 150px;
     margin: 15px;
   }
-
+  
 #header-component {
     background-color: #9695D9;
     width: 100%; 
