@@ -36,10 +36,11 @@
     padding: 20px;
     margin-bottom: 20px;
     position: fixed;
-    top:20vh;
+    top: 20vh;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 80%;
     margin-left: 55px;
     margin-top: 15px;
@@ -47,16 +48,17 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     box-sizing: border-box;
-    border-radius:15px;
+    border-radius: 15px;
     font-family: 'Inter', sans-serif;
-  }
+}
 
-  .buttons {
+.buttons {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
 .button {
     width: 170px;
     border: none;
@@ -98,6 +100,7 @@ input[type=text], input[type=password] {
     height: 40px;
     width: 150px;
     margin: 15px;
+}
 
 #landscape img {
     width: 100vw;
@@ -116,20 +119,22 @@ input[type=text], input[type=password] {
     color: white
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     background-color: #6C6BC2
 }
 
 .nav-pills {
     align-items: left;
 }
-.grass{
-    width:100vw;
+
+.grass {
+    width: 100vw;
     position: fixed;
     top: 75vh;
 }
 
-#incorrect_credentials{
+#incorrect_credentials {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
