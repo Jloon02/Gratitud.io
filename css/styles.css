@@ -1,3 +1,70 @@
+#card6{
+    margin-top: 190vh;
+    height: 110%;
+    width: 100%;
+    /* background-color: #9695D9; */
+    position: absolute;
+}
+
+#card5{
+    margin-top: 95vh;
+    height: 110%;
+    width: 100%;
+    position: absolute;
+}
+
+.chatbox{
+    width: 600px;
+    height:70vh;
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-top: 2px solid gray;
+
+}
+
+.message{
+    max-width: 450px;
+    width: auto;
+    height: auto;
+    background-color: #EFEEF6;
+    border-radius: 20px;
+    margin-left:90px;
+    margin-top: 10px;
+    padding: 5px 15px 8px 15px;
+}
+
+.message_profile{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.message_bar{
+    border-radius: 25px;
+    background-color: #EFEEF6;
+    margin-top: 20px;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #A5A0C2;
+    width: 550px;
+}
+
+.profile{
+    margin-left: 20px;
+    position:absolute;
+    bottom: 0;
+    width: 4vw;
+    height: 4vw;
+}
+
+.profile_text{
+    font-size: 17px;
+}
 
 .welcome_message{
     font-size: 33px;
@@ -7,11 +74,104 @@
     position:fixed;
 }
 
+.thank_you_message{
+    font-size: 33px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    line-height: 55px;
+    position: absolute;
+}
+
+.thank_you_icon{
+    width: 12%;
+    height: 22%;
+    position: absolute;
+    border-radius: 50%;
+    top:43vh;
+    border: 8px solid #8886CB;
+}
+
+.thank_you{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 80px;
+}
+
+.cloud1{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 10vh;
+    animation-name: cloud;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.cloud2{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 25vh;
+    animation-duration: 45s;
+    animation-name: cloud;
+    animation-iteration-count: infinite;
+    margin-left: -500px;
+    animation-delay: 30s;
+    animation-timing-function: linear;
+}
+
+.cloud3{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    top: 30vh;
+    animation-duration: 45s;
+    animation-name: cloud;
+    animation-iteration-count: infinite;
+    margin-left: -500px;
+    animation-delay: 10s;
+    animation-timing-function: linear;
+}
+
+.cloud4{
+    position: absolute;
+    top: 54vh;
+    animation-duration: 50s;
+    animation-name: cloud;
+    animation-iteration-count: infinite;
+    margin-left: -500px;
+    animation-delay: 20s;
+    animation-timing-function: linear;
+}
+
+.cloud5{
+    position: absolute;
+    top: 65vh;
+    animation-duration: 30s;
+    animation-name: cloud;
+    animation-iteration-count: infinite;
+    margin-left: -500px;
+    animation-delay: 38s;
+    animation-timing-function: linear;
+}
+
+.cloud6{
+    position: absolute;
+    top: 70vh;
+    animation-duration: 48s;
+    animation-name: cloud;
+    animation-iteration-count: infinite;
+    margin-left: -500px;
+    animation-delay: 40s;
+    animation-timing-function: linear;
+}
+
 #welcome_container{
     margin-top: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .firefly_container{
@@ -82,6 +242,7 @@ input[type=text], input[type=password] {
 #header-component {
     background-color: #9695D9;
     width: 100%; 
+    position: sticky;
 }
 
 .nav-link {
@@ -96,7 +257,7 @@ input[type=text], input[type=password] {
     align-items: left;
 }
 .grass{
-    width:100vw;
+    width:100%;
     position: fixed;
     top: 75vh;
 }
@@ -109,5 +270,15 @@ input[type=text], input[type=password] {
     left: 0;
     right: 0;
     display: none;
+}
+
+@keyframes cloud{
+    from{
+        margin-left: -400px;
+    }
+
+    to{
+        margin-left: 100%;
+    }
 }
 
