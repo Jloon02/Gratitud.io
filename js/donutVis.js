@@ -62,7 +62,7 @@ class DonutVis {
         // Label with # of artifacts
         artifactNameWithPercentage = artifactNameWithPercentage.map(i => i + '%');
         for(var i=0; i<6; i++) {
-            artifactNameWithPercentage[i] = artifactNameWithPercentage[i] + ' (' + artifactData[i] +  ')';
+            artifactNameWithPercentage[i] = artifactNameWithPercentage[i] + ' - ' + artifactData[i] +  ' Ticket(s)';
         }
 
         vis.createTextBoxes(artifactColor, artifactNameWithPercentage);
@@ -79,7 +79,7 @@ class DonutVis {
         for (var i = 0; i < 2; i++) {
             for (var j = 0; j < 3; j++) {
                 svg.append('text')
-                    .attr('x', j * 600 + 50)
+                    .attr('x', j * 550 + 50)
                     .attr('y', i * 100 + 125)
                     .attr("font-size", 19)
                     .attr('stroke', artifactColor[i * 3 + j])
