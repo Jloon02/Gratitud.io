@@ -115,7 +115,7 @@
     font-family: 'Inter', sans-serif;
     text-align: center;
     line-height: 55px;
-    position:fixed;
+    position: fixed;
 }
 
 .thank_you_message{
@@ -218,31 +218,34 @@
     flex-direction: column;
 }
 
-.firefly_container{
+.firefly_container {
     display: inline block;
-    margin-left: 400px;
+    margin-left: 500px;
     position: fixed;
 }
 
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#login_container{
+#login_container {
     background-color: #DBDAED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 15vh;
     border-radius: 40px;
     width: 45vw;
     padding: 20px;
     margin-bottom: 20px;
-    display: flex;
     position: fixed;
-    top:20vh;
+    top: 20vh;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 80%;
     margin-left: 55px;
     margin-top: 15px;
@@ -250,39 +253,68 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: none;
     box-sizing: border-box;
-    border-radius:15px;
+    border-radius: 15px;
     font-family: 'Inter', sans-serif;
-  }
+}
 
-  .buttons{
+.buttons {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  #login{
+.button {
+    width: 170px;
+    border: none;
+    color: black;
+    background-color: #9695D9;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 8px 10px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: lightskyblue;
+}
+
+#login {
     background-color: #9695D9;
     border: none;
     border-radius: 20px;
     height: 40px;
     width: 150px;
     margin: 15px;
-  }
+}
 
-  #login:hover{
+#login:hover {
     background-color: #8886CB;
-  }
+}
 
-  #signup{
+#signup {
     background-color: #9695D9;
     border: none;
     border-radius: 20px;
     height: 40px;
     width: 150px;
     margin: 15px;
-  }
-  
+}
+
+#landscape img {
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+}
+
 #header-component {
     background-color: #9695D9;
     width: 100%; 
@@ -293,20 +325,22 @@ input[type=text], input[type=password] {
     color: white
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     background-color: #6C6BC2
 }
 
 .nav-pills {
     align-items: left;
 }
+
 .grass{
     width:100%;
     position: fixed;
     top: 75vh;
 }
 
-#incorrect_credentials{
+#incorrect_credentials {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -314,6 +348,7 @@ input[type=text], input[type=password] {
     left: 0;
     right: 0;
     display: none;
+
 }
 
 @keyframes cloud{
@@ -365,4 +400,5 @@ input[type=text], input[type=password] {
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(121, 121, 121);
   }
+
 

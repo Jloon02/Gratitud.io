@@ -9,7 +9,11 @@
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="../js/commonComponents.js" type="text/javascript"></script>
+  <script src="../js/cardCharts/barchart.js" type = "text/javascript"></script>
+  <script src="../js/donutVis.js" type="text/javascript"></script>
+  <script src="../js/card.js" type="module"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
   </style>
@@ -31,6 +35,16 @@
       <img src="../images/ruffles.png" class="thank_you_icon">
       <h1 class="thank_you_message" style="margin-top:85vh;">You were the best Senior Woof Engineer!</h1>
     </div>
+  </div>
+  
+  <div id="barchart">
+    <h1><center>Work completed, per month</center></h1>
+  </div>
+  
+   <h1>Types of tickets you worked on... <br> </h1>
+  <div id="vis">
+    <div id="data"></div>
+    <div id="my_dataviz"></div>
   </div>
 
   <div id="card5" class="center">
@@ -100,7 +114,6 @@
 
     <img src="../images/grass decor.svg" class="grass" style="position: absolute; top:90vh;">
   </div>
-
 
 </body>
 
