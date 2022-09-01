@@ -52,13 +52,14 @@ class Barchart {
         vis.yAxis = d3.axisLeft()
             .scale(vis.yScale)
             .ticks(8)
-
+        
         vis.svg = d3.select(vis.config.parentElement).append('svg')
             .attr("width", vis.config.containerWidth)
             .attr("height", vis.config.containerHeight)
 
         vis.chart = vis.svg.append('g')
-            .attr("transform", `translate(${vis.config.margin.left},${vis.config.margin.top})`);
+            .attr("transform", `translate(${vis.config.margin.left},${vis.config.margin.top})`)
+
         vis.xAxisGroup = vis.chart.append("g")
             .attr("class", "axis x-axis")
             .attr('transform', `translate(0,${vis.config.visHeight})`)

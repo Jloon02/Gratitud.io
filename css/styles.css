@@ -1,15 +1,16 @@
-#card6{
-    margin-top: 450vh;
-    height: 110%;
-    width: 100%;
-    /* background-color: #9695D9; */
-    position: absolute;
-}
 
 #card5{
     margin-top: 350vh;
     height: 110%;
     width: 100%;
+    position: absolute;
+}
+
+#card6{
+    margin-top: 450vh;
+    height: 110%;
+    width: 100%;
+    /* background-color: #9695D9; */
     position: absolute;
 }
 
