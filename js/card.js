@@ -1,4 +1,5 @@
-let workData
+let workData;
+let donutVis;
 let dateParser = d3.utcParse("%Y-%m-%d")
 d3.csv("../data/RufflesData.csv").then(_workData => {
     workData = _workData
@@ -8,4 +9,5 @@ d3.csv("../data/RufflesData.csv").then(_workData => {
         d.completionDays = Math.abs(d.completionDate - d.startDate)/(1000 * 3600 * 24)
     })
     let barChart = new Barchart({parentElement: "#barchart"}, workData);
+    donutVis = new DonutVis({ parentElement: '#vis' }, workData);
 })
