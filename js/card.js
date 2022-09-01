@@ -1,6 +1,5 @@
 let workData;
 let donutVis;
-let workData
 let dateParser = d3.utcParse("%Y-%m-%d")
 d3.csv("../data/RufflesData.csv").then(_workData => {
     workData = _workData
