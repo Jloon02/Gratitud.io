@@ -10,11 +10,32 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="../js/commonComponents.js" type="text/javascript"></script>
+  <script src="../js/sendMessage.js"></script>
 </head>
 
-<body>
+<body style="overflow: hidden;">
   <div id="header-component"></div>
-  <h1> I am a message box!</h1>
+
+  <img src="../images/Letter.svg" id="letter" style="left:-200px">
+  <img src="../images/Letter.svg" id="letter" style="left:300px;">
+  <img src="../images/Letter.svg" id="letter" style="left:800px;">
+  <img src="../images/Letter.svg" id="letter" style="left:-150px;top:500px">
+  <img src="../images/Letter.svg" id="letter" style="left:750px;top:500px">
+
+  <div class="center">
+    <div class="message_box">
+      <div class="center" style="display:flex;flex-direction:column;">
+        <select class="dropdown" >
+          <option value="To:">To:</option>
+          <option value="Ruffles">Ruffles</option>
+        </select>
+
+        <textarea class="text" rows="11" cols="57" placeholder="Message:"></textarea>
+        <button class="message_button" onclick="sendMessageHandler()">Send!</button>
+      </div>
+
+    </div>
+  </div>
 </body>
 
 </html>

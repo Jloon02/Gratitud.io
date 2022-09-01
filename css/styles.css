@@ -13,6 +13,50 @@
     position: absolute;
 }
 
+.message_box{
+    width: 45vw;
+    height:70vh;
+    background-color: #DBDAED;
+    margin-top: 60px;
+    border-radius: 30px;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px gray;
+    position: relative;
+}
+
+#letter{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+}
+
+.dropdown{
+    width:35vw;
+    height: 7vh;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+    color: #A4A4AF;
+}
+
+.text{
+    border:none;
+    border-radius: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #A4A4AF;
+}
+
+.message_button{
+    margin-top: 22px;
+    border: none;
+    background-color: #9695D9;
+    height: 6vh;
+    width:11vw;
+    border-radius: 20px;
+}
+
+
 .chatbox{
     width: 600px;
     height:70vh;
@@ -316,3 +360,45 @@ input[type=password] {
         margin-left: 100%;
     }
 }
+
+@keyframes send{
+    from{
+        background-color: #9695D9;
+    }
+    to{
+        background-color: #EFEEF6;
+    }
+}
+
+.button-animation{
+    animation-name: send;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(187, 187, 187);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(121, 121, 121);
+  }
+
+
