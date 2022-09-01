@@ -36,7 +36,7 @@ class DonutVis {
 
         const artifactData = [techDebt, defect, stories, buildIssue, ta, versionSupport]
 
-        const total = workData.length;
+        const total = vis.workData.length;
 
         // get percentage of each artifactType
         const techDebtPercentage = Math.floor(techDebt / total * 100);
